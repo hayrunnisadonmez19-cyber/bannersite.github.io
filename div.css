@@ -1,0 +1,102 @@
+@media only screen and (max-width: 768px) {
+    ul.menu li {
+       display: inline;
+       margin: auto 10px;
+    }
+    .icerik p {
+        padding: 5vw;
+        font-size: 120%;
+    }
+}
+    @media only screen and (max-width: 768px) {
+        .linkler {
+            width: 20vm;
+            margin-right: 1vh;
+            float:left
+        }
+    }
+
+    .icerik {
+        width: 75vm;
+        float: left;
+    }
+
+    ul.menu li a {
+        font-size: 150%;
+    }
+
+   
+
+
+* {    
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    font-family: Arial, sans-serif;
+}
+.kasa {
+    margin: 0 auto;
+    /**background-color: aqua;*/
+    width: 100%;
+    
+}
+.banner{
+    height: 20vh;
+    background-color: rgb(75, 9, 126);
+    margin: 1vh 0;
+    background-image: url("img.jepg.jpg");
+    background-position: center center;
+    background-size: cover;
+    border-radius: 2vh 0.5vh;
+}
+
+.orta {}
+
+.linkler {
+    min-height: 10vh;
+    background-color: cadetblue;
+    border-radius: 0.5vh 2vh;
+
+}
+
+ul.menu {
+    list-style-type: none;
+    text-align: center;
+}
+ul.menu li {
+    font-size: 150%;
+    line-height: 200%;
+}
+ul.menu li a {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+}
+ul.menu li a:hover {
+    color: rgb(99, 8, 111);
+    
+}
+.icerik {
+    /*background-color: goldenrod;*/
+    min-height: 350px;
+    margin-bottom: 1vh;
+    padding: 0.5vh;
+}
+
+.icerk h1 {
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+    border-bottom: 3px dashed darkgreen;
+}
+.icerik p {
+    text-align: justify;
+    margin: 5px 0;
+}
+.footer {
+    background-color: rgb(18, 151, 218);
+    min-height: 3vh;
+    padding-left: 1vh;
+    padding-top: 1vh; 
+}
